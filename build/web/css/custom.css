@@ -1,0 +1,33 @@
+span#title {
+    color: #fff;
+    font-size: xx-large;
+}
+.header {
+    width: auto;
+    height: auto;
+    background-color: #0cc39f;
+    padding: 50px;
+    margin: 10% auto 15% auto;
+    text-align: center;
+}
+div#content {
+    background-color: #dae0e5;
+}
+#login-form > input {
+    margin: 5px;
+    padding: 5px;
+}
+
+#login-btn {
+    text-align: center;
+    width: auto;
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#login-btn:hover {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: all 200ms ease-out;
+}

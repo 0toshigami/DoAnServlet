@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2018, 3:31:48 PM
+    Author     : NoName
+*/
+
+.stages {
+    font-size: 0;
+    text-align: justify;
+}
+
+.stages:after {
+    content: '';
+    display: inline-block;
+    font-size: 0;
+    text-align: justify;
+    width: 100%;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.stages label {
+    background: #ffffff;
+    border: solid 5px #c0c0c0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 50px;
+    z-index: 1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.stages label:after {
+    content: '\2713';
+    color: #0cc39f;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.stages label.active{
+    border-color: purple !important;
+}
+
+/*.progress > span {
+    background: #c0c0c0;
+    display: inline-block;
+    height: 5px;
+    transform: translateY(-2.75em);
+    transition: 0.3s;
+    width: 0;
+}*/
+
+.panels div {
+    display: none;
+}
+
+/* Custom code for the demo */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #0cc39f;
+    margin: 0;
+    padding: 0 2em;
+}
+
+a {
+    color: #0cc39f;
+}
+
+h2,
+h4 {
+    margin-top: 0;
+}
+
+.form {
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
+    margin: 4em;
+    min-width: 480px;
+    padding: 1em;
+}
+
+.panels {
+    text-align: center;
+}
+
+.panels div {
+    border-top: solid 1px #c0c0c0;
+    margin: 1em 0 0;
+    padding: 1em 0 0;
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    padding: .4em;
+    width: 100%;
+}
+
+button {
+    background-color: #0cc39f;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 1em 0 0 0;
+    padding: 1em;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#btnSubmit {
+    background-color: #0cc39f;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    width: auto;
+    display: inline-block;
+}
